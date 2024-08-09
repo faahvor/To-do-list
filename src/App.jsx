@@ -1,5 +1,6 @@
 
 import Header from './components/Header'
+import TodoList from './components/TodoList'
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
   return (
     <div>
       <Header/>
+      <TodoList/>
     </div>
   )
 }
