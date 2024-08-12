@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import NewTodo from "./NewTodo";
 import Todos from "./Todos";
 import { v4 as uuidv4 } from "uuid";

@@ -1,5 +1,5 @@
-import React from "react";
 import { FaRegCircle } from "react-icons/fa6";
+import PropTypes from 'prop-types';
 
 const NewTodo = ({ handleInputChange, addTodo }) => {
   return (
@@ -14,4 +14,9 @@ const NewTodo = ({ handleInputChange, addTodo }) => {
     </div>
   );
 };
+NewTodo.propTypes={
+  addTodo: PropTypes.func,
+  handleInputChange:PropTypes.func
+
+}
 export default NewTodo;

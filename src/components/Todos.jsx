@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from 'prop-types';
 
 const Todos = ({ todos }) => {
   return (
@@ -9,4 +9,8 @@ const Todos = ({ todos }) => {
     </div>
   );
 };
+Todos.propTypes={
+  todos: PropTypes.array,
+
+}
 export default Todos;
